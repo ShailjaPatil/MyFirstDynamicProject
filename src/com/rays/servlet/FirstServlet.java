@@ -14,6 +14,7 @@ public class FirstServlet extends HttpServlet {
 	@Override
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		System.out.println("Do get Method");
+		response.sendRedirect("First.jsp");
 	}
 	
 	@Override
