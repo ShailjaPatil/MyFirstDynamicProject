@@ -7,8 +7,9 @@
 <title>Insert title here</title>
 </head>
 <body>
-<%@ include file = "Header.jsp" %>
-<h1>Hello World</h1>
+
+	<a href= "UserRegisterCtl">SignUp</a>
+	<a href= "UserListCtl">UserList</a>
 
 </body>
 </html>

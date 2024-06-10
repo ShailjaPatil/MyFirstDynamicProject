@@ -32,9 +32,9 @@ public class UserModel {
 	
 	public void add(UserBean bean) throws Exception {
 		
-		System.out.println("hi1");
+//		System.out.println("hi1");
 		Connection conn= JDBCDataSource.getConnection();
-		System.out.println("hi2");
+//		System.out.println("hi2");
 
 		
 		PreparedStatement pst= conn.prepareStatement("insert into users values(?,?,?,?,?,?,?)");

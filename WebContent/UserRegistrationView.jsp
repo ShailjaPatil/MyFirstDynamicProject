@@ -8,6 +8,7 @@
 </head>
 <body>
 
+	<center>
 	<form action="UserRegisterCtl" method="post">
 			<%
 				String msg = (String) request.getAttribute("msg");
@@ -70,6 +71,8 @@
 			</table>
 	
 		</form>
+		
+	</center>
 
 
 </body>
